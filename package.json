@@ -2,6 +2,7 @@
   "private": true,
   "description": "Material Components Web",
   "license": "MIT",
+  "version": "0.38.1",
   "scripts": {
     "build": "npm run clean && mkdirp build && webpack --progress --colors",
     "build:demos": "npm run clean && mkdirp build && webpack --config=demos/webpack.config.js --progress --colors",
